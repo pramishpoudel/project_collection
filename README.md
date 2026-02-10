@@ -41,28 +41,28 @@ We follow Conventional Commits:
 • Comment complex logic within the code.
 
 #installation guide for project dependencies management
-   #installation of pipx
+   #`installation of pipx`
    python -m pip install --user pipx
    python -m pipx ensurepath
    
-   #installation of poetry
+   #`installation of poetry`
     pipx install poetry
 
-   #intialize the poetry
+   #`intialize the poetry`
     poetry init
    
-   #creating virtual environment
+   #`creating virtual environment`
     poetry install
 
-   #activation virtual environmen
+   #`activation virtual environmen`
     path/Scripts/activate.ps1
 
 
-#installing dependencies
+#`installing dependencies`
  poetry add Django,djangorestframework
 
-#project creation
+#`project creation`
  poetry run django-admin startproject <project name>
 
-#creating apps
+#`creating apps`
  poetry run python manage.py startapp <project name>
